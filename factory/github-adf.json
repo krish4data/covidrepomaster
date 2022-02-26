@@ -1,0 +1,9 @@
+{
+	"name": "github-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aabba4a1-5d12-4d44-b616-305cd12b9fc0",
+		"tenantId": "645f3fb7-7d8b-4d40-9b21-0b92143490a0"
+	}
+}
