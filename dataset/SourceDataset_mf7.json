@@ -1,0 +1,36 @@
+{
+	"name": "SourceDataset_mf7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Emp_Dept.txt",
+				"container": "deltatestincrement"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "1",
+				"type": "String"
+			},
+			{
+				"name": "Krishna",
+				"type": "String"
+			},
+			{
+				"name": "EEE",
+				"type": "String"
+			}
+		]
+	}
+}
