@@ -1,5 +1,13 @@
 {
 	"name": "github-adf",
+	"properties": {
+		"globalParameters": {
+			"GV_ADF": {
+				"type": "string",
+				"value": "kRISHNA"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
